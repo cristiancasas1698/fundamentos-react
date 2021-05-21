@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//estilos de la pagina
+
+//Hoja de Estilos
 import './index.css'
 
-//componentes creados
-import ContadorApp from './ContadorApp.js'
-
+//Comonentes Creados
+import ComponenteApp from './ComponenteApp'
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<ContadorApp valor_contador = {0}/> , divRoot);
+ReactDOM.render(<ComponenteApp /> , divRoot);
