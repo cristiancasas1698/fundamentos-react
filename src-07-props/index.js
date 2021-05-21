@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom';
 import './index.css'
 
 //componentes creados
-import ContadorApp from './ContadorApp.js'
+import Componentapp from './Componentapp.js'
 
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<ContadorApp valor_contador = {0}/> , divRoot);
+ReactDOM.render(<Componentapp param01='1234567' param02='ABCDFGHI'/>,divRoot);
